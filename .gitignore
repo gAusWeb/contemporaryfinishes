@@ -1,0 +1,10 @@
+# Ignore configuration files that may contain sensitive information.
+wp-content/themes/stockholm/gulp/node_modules
+cgi-bin
+wordpress.zip
+
+# user generated uploads/images etc
+wp-content/uploads/2017
+
+# Ignore other files
+.DS_Store

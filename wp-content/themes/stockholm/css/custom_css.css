@@ -1,0 +1,164 @@
+
+
+ .comment_holder .comment_number h5, .comment_form .comment-respond h5 {
+font-size: 30px;
+}
+ .single_tags h5{
+font-family: Karla, sans-serif;
+font-size: 11px;
+font-weight: 700;
+font-style: normal;
+text-transform: uppercase;
+margin-right: 10px;
+}
+.header_bottom {
+padding: 0 0 0 45px;
+}
+header:not(.sticky) .side_menu_button>a.side_menu_button_link{
+    height: 100%;
+    background-color: #000;
+color:#fff;
+    display: inline-block;
+width:auto;
+}
+.side_menu_button>a.side_menu_button_link{
+    padding: 0 21px;
+}
+header:not(.sticky) .side_menu_button>a.side_menu_button_link span{
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    display: block;
+}
+.dark:not(.sticky):not(.scrolled) .side_menu_button>a {
+    color: #fff;
+}
+.single_tags a, .widget .tagcloud a, aside.sidebar .widget .tagcloud a {
+padding: 2px 18px;
+}
+.portfolio_social_holder {
+    padding-top: 15px;
+}
+.side_menu .widget.widget_nav_menu li > a{
+position:relative;
+}
+.side_menu .widget.widget_nav_menu li > a:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    top: 50%;
+    left: calc(100% + 13px);
+    transition: width .15s;
+}
+
+.side_menu .widget.widget_nav_menu li:hover > a:after {
+    width: 34px;
+}
+.portfolio_single .portfolio_masonry_gallery {
+    margin-top: 12px;
+}
+
+ .flexslider .flex-prev,
+.full_width .section_inner .portfolio_slider .caroufredsel-prev,
+.portfolio_slider .caroufredsel-prev {
+left: 0px;
+}
+.flexslider .flex-next,
+.full_width .section_inner .portfolio_slider .caroufredsel-next,
+.portfolio_slider .caroufredsel-next {
+right: 0px;
+}
+
+ div.comment_form {
+margin: 0 0 120px;
+}
+
+@media only screen and (max-width: 1000px){
+    .logo_wrapper,
+    .q_logo a {
+        left: 0;
+    }
+}
+
+.side_area_over_content .cover {
+    -webkit-transition: opacity .15s ease-in-out,background .3s ease-in-out,z-index .3s ease-in-out;
+    transition: opacity .15s ease-in-out,background .3s ease-in-out,z-index .3s ease-in-out;
+    z-index: 1;
+}
+
+.side_area_over_content.side_area_uncovered_opened .cover {
+    -webkit-transition: opacity .3s ease-in-out,background .3s ease-in-out,z-index .15s ease-in-out;
+    transition: opacity .3s ease-in-out,background .3s ease-in-out,z-index .15s ease-in-out;
+}
+
+.qode-owl-slider .owl-nav .owl-prev,
+.qode-owl-slider .owl-nav .owl-next,
+.footer_top a,
+#back_to_top>span,
+.portfolio_single .owl-carousel .owl-next,
+.portfolio_single .owl-carousel .owl-prev,
+.qode-simple-blog-list .qode-sbl-post .qode-sbl-post-title a,
+.qode-simple-blog-list .qode-sbl-post .qode-sbl-category a,
+.social_share_list_holder ul li i,
+.portfolio_navigation a,
+.flex-direction-nav a,
+#submit_comment,
+.single_tags a {
+   -webkit-transition: none;
+    transition: none;
+}
+
+#submit_comment:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.qode-focus-border-form .qbutton.display_dash {
+    padding: 0 76px;
+    line-height: 58px;
+    height: 58px;
+}
+
+div.wpcf7 .ajax-loader {
+   display: none;
+}
+
+.portfolio_single .owl-nav .owl-prev span.arrow_carrot-left,
+.portfolio_single .owl-nav .owl-next span.arrow_carrot-right {
+   display: none;
+}
+
+
+.portfolio_single .owl-nav .owl-prev:before,
+.portfolio_single .owl-nav .owl-next:before {
+    content: "\f104";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "FontAwesome";
+    width: 76px;
+    height: 76px;
+    line-height: 76px;
+}
+
+.portfolio_single .owl-nav .owl-next:before {
+     content: "\f105";
+}
+
+.blog_single.blog_holder article.format-link .post_text .post_text_inner,
+.blog_single.blog_holder article.format-quote .post_text .post_text_inner {
+     padding: 20px 0;
+}
+
+.blog_holder.blog_animated article .qodef-post-image,
+.blog_holder.blog_animated article .qodef-post-text {
+    opacity: 1;
+    -webkit-transition: left .4s;
+    transition: left .4s;
+    backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}

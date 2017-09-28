@@ -1,0 +1,22 @@
+[07-Sep-2017 09:02:47 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[07-Sep-2017 09:06:04 UTC] PHP Warning:  POST Content-Length of 19843728 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[07-Sep-2017 09:19:54 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, boolean given in /home/cftscom/public_html/wp-content/themes/stockholm/framework/lib/qode.framework.php on line 100
+[07-Sep-2017 09:20:07 UTC] PHP Warning:  sprintf(): Too few arguments in /home/cftscom/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[07-Sep-2017 09:20:20 UTC] PHP Warning:  sprintf(): Too few arguments in /home/cftscom/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[07-Sep-2017 09:20:54 UTC] PHP Warning:  sprintf(): Too few arguments in /home/cftscom/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[07-Sep-2017 09:20:54 UTC] PHP Warning:  sprintf(): Too few arguments in /home/cftscom/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[07-Sep-2017 09:20:54 UTC] PHP Warning:  sprintf(): Too few arguments in /home/cftscom/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[07-Sep-2017 09:21:14 UTC] PHP Warning:  sprintf(): Too few arguments in /home/cftscom/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[07-Sep-2017 09:21:14 UTC] PHP Warning:  sprintf(): Too few arguments in /home/cftscom/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[07-Sep-2017 09:21:14 UTC] PHP Warning:  sprintf(): Too few arguments in /home/cftscom/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 154
+[07-Sep-2017 09:25:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cftscom/public_html/wp-content/themes/stockholm/includes/import/qode-import.php on line 107
+[15-Sep-2017 05:46:14 UTC] PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/cftscom/public_html/wp-content/themes/stockholm/framework/lib/qode.functions.php on line 71
+[15-Sep-2017 05:46:14 UTC] PHP Warning:  fsockopen(): unable to connect to :80 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/cftscom/public_html/wp-content/themes/stockholm/framework/lib/qode.functions.php on line 71
+[15-Sep-2017 05:47:41 UTC] PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/cftscom/public_html/wp-content/themes/stockholm/framework/lib/qode.functions.php on line 71
+[15-Sep-2017 05:47:41 UTC] PHP Warning:  fsockopen(): unable to connect to :80 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/cftscom/public_html/wp-content/themes/stockholm/framework/lib/qode.functions.php on line 71
+[15-Sep-2017 06:02:50 UTC] PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/cftscom/public_html/wp-content/themes/stockholm/framework/lib/qode.functions.php on line 71
+[15-Sep-2017 06:02:50 UTC] PHP Warning:  fsockopen(): unable to connect to :80 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/cftscom/public_html/wp-content/themes/stockholm/framework/lib/qode.functions.php on line 71
+[17-Sep-2017 02:53:59 UTC] PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/cftscom/public_html/wp-content/themes/stockholm/framework/lib/qode.functions.php on line 71
+[17-Sep-2017 02:53:59 UTC] PHP Warning:  fsockopen(): unable to connect to :80 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/cftscom/public_html/wp-content/themes/stockholm/framework/lib/qode.functions.php on line 71
+[17-Sep-2017 02:53:59 UTC] PHP Warning:  fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/cftscom/public_html/wp-content/themes/stockholm/framework/lib/qode.functions.php on line 71
+[17-Sep-2017 02:53:59 UTC] PHP Warning:  fsockopen(): unable to connect to :80 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/cftscom/public_html/wp-content/themes/stockholm/framework/lib/qode.functions.php on line 71
